@@ -1,0 +1,17 @@
+{
+  "name": "dsa-typescript",
+  "version": "1.0.0",
+  "description": "Learning Data Structures and Algorithms in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.0.0"
+  }
+}
