@@ -3,20 +3,18 @@
  * @description Implementation and examples of an Array-based data structure.
  */
 
-export class MyArray<T> {
-    private data: { [key: number]: T };
-    private length: number;
+const fruits: string[] = ['Apple', 'Banana', 'Cherry']
 
-    constructor() {
-        this.data = {};
-        this.length = 0;
-    }
+const vehicles = new Array<string>('Car', 'Truck', 'Bike')
 
-    // Your implementation goes here
+const grid = [
+	[1, 2],
+	[3, 4],
+]
+
+for (let i = 0; i < grid.length; i++) {
+	for (let j = 0; j < grid[i].length; j++) {
+		console.log(grid[i][j])
+	}
 }
 
-// --- Examples ---
-
-// Example 1: Basic usage
-// const arr = new MyArray<number>();
-// console.log(arr);

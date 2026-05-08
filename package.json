@@ -2,6 +2,7 @@
   "name": "dsa-typescript",
   "version": "1.0.0",
   "description": "Learning Data Structures and Algorithms in TypeScript",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

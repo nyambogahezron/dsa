@@ -18,6 +18,19 @@
  */
 
 export function productExceptSelf(nums: number[]): number[] {
-    // Your implementation goes here
-    return [];
+    let result: number[] = [];
+
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = 0; j < nums.length; j++) {
+            if (i !== j) {
+                result[i] *= nums[j];
+            }
+        }
+    }
+
+    return result;
 }
+
+
+console.log('[1, 2, 3, 4] => ', productExceptSelf([1, 2, 3, 4]))
+console.log('[-1,1,0,-3,3] => ', productExceptSelf([-1, 1, 0, -3, 3]))
