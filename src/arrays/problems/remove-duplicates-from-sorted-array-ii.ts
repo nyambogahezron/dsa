@@ -1,44 +1,38 @@
 /**
  * @file remove-duplicates-from-sorted-array-ii.ts
- * @description
- * Given an integer array `nums` sorted in non-decreasing order, remove some duplicates in-place 
- * such that each unique element appears at most twice. The relative order of the elements should be kept the same.
  * 
- * You must do this by modifying the input array in-place with O(1) extra memory.
- *
+ * 80. Remove Duplicates from Sorted Array II
+ * Medium
+ * 
+ * Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice. 
+ * The relative order of the elements should be kept the same.
+ * 
+ * Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. 
+ * More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. 
+ * It does not matter what you leave beyond the first k elements.
+ * 
+ * Return k after placing the final result in the first k slots of nums.
+ * Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
+ * 
+ * Example 1:
+ * Input: nums = [1,1,1,2,2,3]
+ * Output: 5, nums = [1,1,2,2,3,_]
+ * Explanation: Your function should return k = 5, with the first five elements of nums being 1, 1, 2, 2 and 3 respectively.
+ * 
+ * Example 2:
+ * Input: nums = [0,0,1,1,1,1,2,3,3]
+ * Output: 7, nums = [0,0,1,1,2,3,3,_,_]
+ * Explanation: Your function should return k = 7, with the first seven elements of nums being 0, 0, 1, 1, 2, 3 and 3 respectively.
+ * 
  * Constraints:
  * - 1 <= nums.length <= 3 * 10^4
  * - -10^4 <= nums[i] <= 10^4
  * - nums is sorted in non-decreasing order.
- *
- * Examples:
- * 1. Input: nums = [1,1,1,2,2,3]
- *    Output: 5, nums = [1,1,2,2,3,_]
- * 2. Input: nums = [0,0,1,1,1,1,2,3,3]
- *    Output: 7, nums = [0,0,1,1,2,3,3,_,_]
  */
 
-/**
- * APPROACH: Two Pointers
- * Since the array is sorted, we can keep track of where to write the next valid element.
- * We allow an element if it's different from the element two positions before the current write index.
- * 
- * Time: O(n) | Space: O(1)
- */
 export function removeDuplicates(nums: number[]): number {
-    if (nums.length <= 2) return nums.length;
-
-    let k = 2; // The first two elements are always allowed (at most twice)
-    
-    for (let i = 2; i < nums.length; i++) {
-        // Compare current element with the element two positions before the write pointer
-        if (nums[i] !== nums[k - 2]) {
-            nums[k] = nums[i];
-            k++;
-        }
-    }
-
-    return k;
+    // Your implementation goes here
+    return 0;
 }
 
 // Tests
