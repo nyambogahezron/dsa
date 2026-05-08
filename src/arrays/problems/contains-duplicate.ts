@@ -24,15 +24,36 @@
  * - -10^9 <= nums[i] <= 10^9
  */
 
-export function containsDuplicate(nums: number[]): boolean {
-	// Your implementation goes here
-	return false
+//Set Size (Most concise)
+// Time: O(n) | Space: O(n)
+export function containsDuplicateSetSize(nums: number[]): boolean {
+	return new Set(nums).size !== nums.length;
 }
+
+//Hash Set with Early Exit
+// Time: O(n) | Space: O(n)
+export function containsDuplicateHashSet(nums: number[]): boolean {
+	const seen = new Set<number>();
+	for (const num of nums) {
+		if (seen.has(num)) return true;
+		seen.add(num);
+	}
+	return false;
+}
+
+//Sorting
+// Time: O(n log n) | Space: O(n)
+export function containsDuplicateSorting(nums: number[]): boolean {
+	const sorted = [...nums].sort((a, b) => a - b);
+	for (let i = 0; i < sorted.length - 1; i++) {
+		if (sorted[i] === sorted[i + 1]) return true;
+	}
+	return false;
+}
+
+export const containsDuplicate = containsDuplicateSetSize
 
 // Tests
 console.log('[1,2,3,1] =>', containsDuplicate([1, 2, 3, 1]));
 console.log('[1,2,3,4] =>', containsDuplicate([1, 2, 3, 4]));
-console.log(
-	'[1,1,1,3,3,4,3,2,4,2] =>',
-	containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]),
-);
+console.log('[1,1,1,3,3,4,3,2,4,2] =>', containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]));

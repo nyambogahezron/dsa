@@ -24,19 +24,45 @@
  * Constraints:
  * - 1 <= nums.length <= 10^5
  * - -10^4 <= nums[i] <= 10^4
- * 
- * Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
  */
 
-export function maxSubArray(nums: number[]): number {
-	// Your implementation goes here
-	return 0
+// Brute force approach
+// Time: O(n^3) and space: O(1)
+export function maxSubArrayBruteForce(nums: number[]): number {
+	let max = -Infinity
+
+	for (let i = 0; i < nums.length; i++) {
+		for (let j = i; j < nums.length; j++) {
+			let sum = 0
+			for (let k = i; k <= j; k++) {
+				sum += nums[k]
+			}
+
+			if (sum > max) max = sum
+		}
+	}
+
+	return max
 }
 
+// Optimized solution (Kadane's Algorithm)
+// Time: O(n) and space: O(1)
+export function maxSubArrayOptimized(nums: number[]): number {
+	let max = -Infinity
+	let sum = 0
+
+	for (let i = 0; i < nums.length; i++) {
+		sum += nums[i]
+
+		if (sum > max) max = sum
+		if (sum < 0) sum = 0
+	}
+	return max
+}
+
+export const maxSubArray = maxSubArrayOptimized
+
 // Tests
-console.log(
-	'[-2, 1, -3, 4, -1, 2, 1, -5, 4] =>',
-	maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]),
-)
+console.log('[-2, 1, -3, 4, -1, 2, 1, -5, 4] =>', maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
 console.log('[1] =>', maxSubArray([1]))
 console.log('[5,4,-1,7,8] =>', maxSubArray([5, 4, -1, 7, 8]))

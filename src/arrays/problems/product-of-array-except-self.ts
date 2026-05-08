@@ -20,13 +20,22 @@
  * - 2 <= nums.length <= 10^5
  * - -30 <= nums[i] <= 30
  * - The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
- * 
- * Follow up: Can you solve the problem in O(1) extra space complexity? (The output array does not count as extra space for space complexity analysis.)
  */
 
+// Brute force approach
+// Time: O(n^2) and space: O(1)
 export function productExceptSelf(nums: number[]): number[] {
-    // Your implementation goes here
-    return [];
+    let result: number[] = new Array(nums.length).fill(1);
+
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = 0; j < nums.length; j++) {
+            if (i !== j) {
+                result[i] *= nums[j];
+            }
+        }
+    }
+
+    return result;
 }
 
 // Tests
