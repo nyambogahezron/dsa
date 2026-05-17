@@ -26,17 +26,17 @@ Each topic in this repository is self-contained with the following files:
 <!-- DATA_STRUCTURES_START -->
 | Data Structure | Implementation | Documentation | Practice Problems |
 | :--- | :--- | :--- | :--- |
-| **Arrays** | [Code](./data-structures/arrays/index.ts) | [Notes](./data-structures/arrays/index.md) | [Problems](./data-structures/arrays/problems/) |
-| **Binary Indexed Trees** | [Code](./data-structures/binary-indexed-trees/index.ts) | [Notes](./data-structures/binary-indexed-trees/index.md) | [Problems](./data-structures/binary-indexed-trees/problems/) |
-| **Graphs** | [Code](./data-structures/graphs/index.ts) | [Notes](./data-structures/graphs/index.md) | [Problems](./data-structures/graphs/problems/) |
-| **Hash Tables** | [Code](./data-structures/hash-tables/index.ts) | [Notes](./data-structures/hash-tables/index.md) | [Problems](./data-structures/hash-tables/problems/) |
-| **Heaps** | [Code](./data-structures/heaps/index.ts) | [Notes](./data-structures/heaps/index.md) | [Problems](./data-structures/heaps/problems/) |
-| **Linked Lists** | [Code](./data-structures/linked-lists/index.ts) | [Notes](./data-structures/linked-lists/index.md) | [Problems](./data-structures/linked-lists/problems/) |
-| **Queues** | [Code](./data-structures/queues/index.ts) | [Notes](./data-structures/queues/index.md) | [Problems](./data-structures/queues/problems/) |
-| **Segment Trees** | [Code](./data-structures/segment-trees/index.ts) | [Notes](./data-structures/segment-trees/index.md) | [Problems](./data-structures/segment-trees/problems/) |
-| **Stacks** | [Code](./data-structures/stacks/index.ts) | [Notes](./data-structures/stacks/index.md) | [Problems](./data-structures/stacks/problems/) |
-| **Trees** | [Code](./data-structures/trees/index.ts) | [Notes](./data-structures/trees/index.md) | [Problems](./data-structures/trees/problems/) |
-| **Tries** | [Code](./data-structures/tries/index.ts) | [Notes](./data-structures/tries/index.md) | [Problems](./data-structures/tries/problems/) |
+| **Arrays** | [Code](./ds/arrays/index.ts) | [Notes](./ds/arrays/index.md) | [Problems](./ds/arrays/problems/) |
+| **Binary Indexed Trees** | [Code](./ds/binary-indexed-trees/index.ts) | [Notes](./ds/binary-indexed-trees/index.md) | [Problems](./ds/binary-indexed-trees/problems/) |
+| **Graphs** | [Code](./ds/graphs/index.ts) | [Notes](./ds/graphs/index.md) | [Problems](./ds/graphs/problems/) |
+| **Hash Tables** | [Code](./ds/hash-tables/index.ts) | [Notes](./ds/hash-tables/index.md) | [Problems](./ds/hash-tables/problems/) |
+| **Heaps** | [Code](./ds/heaps/index.ts) | [Notes](./ds/heaps/index.md) | [Problems](./ds/heaps/problems/) |
+| **Linked Lists** | [Code](./ds/linked-lists/index.ts) | [Notes](./ds/linked-lists/index.md) | [Problems](./ds/linked-lists/problems/) |
+| **Queues** | [Code](./ds/queues/index.ts) | [Notes](./ds/queues/index.md) | [Problems](./ds/queues/problems/) |
+| **Segment Trees** | [Code](./ds/segment-trees/index.ts) | [Notes](./ds/segment-trees/index.md) | [Problems](./ds/segment-trees/problems/) |
+| **Stacks** | [Code](./ds/stacks/index.ts) | [Notes](./ds/stacks/index.md) | [Problems](./ds/stacks/problems/) |
+| **Trees** | [Code](./ds/trees/index.ts) | [Notes](./ds/trees/index.md) | [Problems](./ds/trees/problems/) |
+| **Tries** | [Code](./ds/tries/index.ts) | [Notes](./ds/tries/index.md) | [Problems](./ds/tries/problems/) |
 <!-- DATA_STRUCTURES_END -->
 
 ### Algorithms
