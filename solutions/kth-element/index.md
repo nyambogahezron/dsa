@@ -1,6 +1,5 @@
 # Kth Element
 
-## Detailed Explanation
 The Kth Element pattern is optimized to find the $K$-th smallest or largest value in a dataset without undergoing a complete sorting operation (which takes $O(N \log N)$). Instead, it uses specialized data structures (like Heaps) or algorithmic partitioning (like Quickselect) to achieve $O(N)$ average or $O(N \log K)$ time complexity.
 
 ---

@@ -1,6 +1,5 @@
 # Two Heaps
 
-## Detailed Explanation
 The Two Heaps pattern uses a Max-Heap to store the smaller half of elements and a Min-Heap to store the larger half of elements. This enables highly efficient dynamic partitioning, allowing you to query the exact median or boundary value in $O(1)$ time while inserting new elements in $O(\log N)$.
 
 ---

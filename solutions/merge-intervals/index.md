@@ -1,6 +1,5 @@
 # Merge Intervals
 
-## Detailed Explanation
 The Merge Intervals pattern deals with overlapping interval ranges (usually representing time, coordinates, or schedules). It relies on sorting intervals by their start points and then iterating through them to merge overlapping boundaries into consolidated segments.
 
 ---

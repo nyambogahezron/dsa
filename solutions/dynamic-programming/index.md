@@ -1,6 +1,5 @@
 # Dynamic Programming
 
-## Detailed Explanation
 Dynamic Programming (DP) is a method for solving complex problems by breaking them down into simpler, overlapping subproblems. It solves each subproblem exactly once and stores its answer in a table (memoization or tabulation) to prevent redundant recalculations. It combines the speed of greedy approaches with the exhaustiveness of search.
 
 ---

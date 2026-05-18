@@ -1,6 +1,5 @@
 # Brute Force
 
-## Detailed Explanation
 Brute Force (or Exhaustive Search) is a straightforward approach to solving a problem, relying on sheer computing power to try all possible candidates for the solution. It doesn't use any sophisticated optimization or shortcut heuristics; it simply guarantees correctness by checking every single possibility in the search space.
 
 ---

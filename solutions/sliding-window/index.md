@@ -1,6 +1,5 @@
 # Sliding Window
 
-## Detailed Explanation
 The Sliding Window pattern is used to perform a highly efficient, single-pass iteration over a linear data structure (arrays, strings, linked lists). Instead of using nested loops to re-calculate metrics over subsegments, it maintains a 'window' of elements using two pointers (left and right) and updates the metrics in $O(1)$ as the window slides.
 
 ---

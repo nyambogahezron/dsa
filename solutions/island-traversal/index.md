@@ -1,6 +1,5 @@
 # Island Traversal
 
-## Detailed Explanation
 Island Traversal represents matrix-grid searches using standard Graph DFS/BFS algorithms. It treats a multi-dimensional array as an adjacency grid, where cells (coordinates) represent nodes and adjacent cells (up, down, left, right) represent edges. It traverses and processes connected components while marking visited cells to avoid infinite cycles.
 
 ---

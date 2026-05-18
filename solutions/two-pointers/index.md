@@ -1,6 +1,5 @@
 # Two Pointers
 
-## Detailed Explanation
 The Two Pointers pattern utilizes two reference indexes to traverse a linear data structure simultaneously. It is highly optimized for sorted arrays or linked lists, enabling searches, comparisons, and in-place modifications to run in $O(N)$ time with $O(1)$ space rather than nested loops.
 
 ---

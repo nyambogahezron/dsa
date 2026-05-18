@@ -1,6 +1,5 @@
 # Cyclic Sort
 
-## Detailed Explanation
 Cyclic Sort is a unique sorting pattern specifically designed for problems where the input array contains numbers within a closed, contiguous range (e.g. $[1, N]$ or $[0, N]$). It sorts the array in-place in $O(N)$ time by swapping numbers to their 'correct' index (value `x` should reside at index `x - 1`).
 
 ---

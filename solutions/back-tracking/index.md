@@ -1,7 +1,10 @@
 # Backtracking
 
-## Detailed Explanation
 Backtracking is an algorithmic paradigm that searches depth-first for a solution by building candidates incrementally and abandoning ('backtracking') a candidate as soon as it determines that the candidate cannot possibly lead to a valid solution. It is essentially an elegant, state-aware recursion with intelligent tree-pruning.
+
+A bonding function is used to determine if the current candidate is valid or not. If it is valid, we continue to explore deeper; if it is invalid, we backtrack immediately without exploring further down that path.
+
+
 
 ---
 

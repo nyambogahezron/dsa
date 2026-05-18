@@ -1,6 +1,5 @@
 # Branch and Bound
 
-## Detailed Explanation
 Branch and Bound (B&B) is an algorithm design paradigm for solving combinatorial optimization problems. It explores the search space systematically using a tree structure (branching) but prunes massive parts of the tree by calculating bounds (bounding) on the optimal solution. It is similar to backtracking, but uses a global heuristic value to prune non-optimal branches in optimization problems.
 
 ---

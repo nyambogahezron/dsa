@@ -1,6 +1,5 @@
 # Divide and Conquer
 
-## Detailed Explanation
 Divide and Conquer (D&C) breaks a problem down into two or more subproblems of the same or related type, solves these subproblems recursively, and then combines their solutions to solve the original problem.
 
 ---

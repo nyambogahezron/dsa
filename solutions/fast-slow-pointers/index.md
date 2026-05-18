@@ -1,6 +1,5 @@
 # Fast and Slow Pointers
 
-## Detailed Explanation
 The Fast and Slow Pointers pattern (also known as Floyd's Cycle Detection or Tortoise and Hare) uses two pointers that traverse a linked list or sequence at different speeds (usually one at $1x$ speed and the other at $2x$ speed). It is incredibly elegant for identifying structural cycles or midpoints without allocating memory.
 
 ---

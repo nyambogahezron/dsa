@@ -1,6 +1,5 @@
 # Greedy Method
 
-## Detailed Explanation
 The Greedy Method builds up a solution piece-by-piece, always choosing the next piece that offers the most obvious and immediate benefit. In other words, it makes the locally optimal choice at each stage with the expectation that this will lead to a globally optimal solution.
 
 ---
