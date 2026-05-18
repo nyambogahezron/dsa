@@ -20,6 +20,13 @@ Each topic in this repository is self-contained with the following files:
 
 ## Knowledge Map
 
+### Foundations
+*Core computer science concepts that underpin all data structures and algorithms.*
+
+| Topic | Implementation | Documentation |
+| :--- | :--- | :--- |
+| **Computational Complexity (Big O)** | [Code](./complexity/index.ts) | [Notes](./complexity/index.md) |
+
 ### Data Structures
 *Core building blocks for efficient data storage and manipulation.*
 
