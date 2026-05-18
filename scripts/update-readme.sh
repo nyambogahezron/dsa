@@ -10,8 +10,8 @@ echo "Updating README.md..."
 # Generate Data Structures Table
 ds_content="| Data Structure | Implementation | Documentation | Practice Problems |"$'\n'
 ds_content+="| :--- | :--- | :--- | :--- |"$'\n'
-if [ -d "data-structures" ]; then
-    for dir in data-structures/*/; do
+if [ -d "ds" ]; then
+    for dir in ds/*/; do
         if [ -d "$dir" ]; then
             name=$(basename "$dir")
             title=$(format_name "$name")
@@ -41,6 +41,20 @@ if [ -d "algorithms" ]; then
     done
 fi
 
+# Generate Solutions Table
+solutions_content="| Technique | Template | Documentation | Practice Problems |"$'\n'
+solutions_content+="| :--- | :--- | :--- | :--- |"$'\n'
+if [ -d "solutions" ]; then
+    for dir in solutions/*/; do
+        if [ -d "$dir" ]; then
+            name=$(basename "$dir")
+            title=$(format_name "$name")
+            path_prefix=${dir%/}
+            solutions_content+="| **$title** | [Code](./$path_prefix/index.ts) | [Notes](./$path_prefix/index.md) | [Problems](./$path_prefix/problems/) |"$'\n'
+        fi
+    done
+fi
+
 # Update README.md
 temp_file=$(mktemp)
 
@@ -60,12 +74,19 @@ while IFS= read -r line || [ -n "$line" ]; do
     elif [[ "$line" == "<!-- ALGORITHMS_END -->" ]]; then
         echo "$line" >> "$temp_file"
         state="normal"
+    elif [[ "$line" == "<!-- SOLUTIONS_START -->" ]]; then
+        echo "$line" >> "$temp_file"
+        echo -n "$solutions_content" >> "$temp_file"
+        state="skip"
+    elif [[ "$line" == "<!-- SOLUTIONS_END -->" ]]; then
+        echo "$line" >> "$temp_file"
+        state="normal"
     elif [[ "$state" == "normal" ]]; then
         echo "$line" >> "$temp_file"
     fi
 done < README.md
 
 mv "$temp_file" README.md
-chmod +x update-readme.sh
+chmod +x "$0"
 
 echo "README.md updated successfully!"

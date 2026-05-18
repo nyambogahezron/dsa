@@ -45,15 +45,29 @@ Each topic in this repository is self-contained with the following files:
 <!-- ALGORITHMS_START -->
 | Category | Algorithm | Implementation | Documentation | Practice Problems |
 | :--- | :--- | :--- | :--- | :--- |
-| Search | **Binary** | [Code](./algorithms/search/binary/index.ts) | [Notes](./algorithms/search/binary/index.md) | [Problems](./algorithms/search/binary/problems/) |
-| Search | **Linear** | [Code](./algorithms/search/linear/index.ts) | [Notes](./algorithms/search/linear/index.md) | [Problems](./algorithms/search/linear/problems/) |
-| Sorting | **Bubble** | [Code](./algorithms/sorting/bubble/index.ts) | [Notes](./algorithms/sorting/bubble/index.md) | [Problems](./algorithms/sorting/bubble/problems/) |
-| Sorting | **Heap** | [Code](./algorithms/sorting/heap/index.ts) | [Notes](./algorithms/sorting/heap/index.md) | [Problems](./algorithms/sorting/heap/problems/) |
-| Sorting | **Insertion** | [Code](./algorithms/sorting/insertion/index.ts) | [Notes](./algorithms/sorting/insertion/index.md) | [Problems](./algorithms/sorting/insertion/problems/) |
-| Sorting | **Merge** | [Code](./algorithms/sorting/merge/index.ts) | [Notes](./algorithms/sorting/merge/index.md) | [Problems](./algorithms/sorting/merge/problems/) |
-| Sorting | **Quick** | [Code](./algorithms/sorting/quick/index.ts) | [Notes](./algorithms/sorting/quick/index.md) | [Problems](./algorithms/sorting/quick/problems/) |
-| Sorting | **Selection** | [Code](./algorithms/sorting/selection/index.ts) | [Notes](./algorithms/sorting/selection/index.md) | [Problems](./algorithms/sorting/selection/problems/) |
 <!-- ALGORITHMS_END -->
+
+### Problem Solving Techniques
+*Patterns and strategies for solving coding challenges.*
+
+<!-- SOLUTIONS_START -->
+| Technique | Template | Documentation | Practice Problems |
+| :--- | :--- | :--- | :--- |
+| **Back Tracking** | [Code](./solutions/back-tracking/index.ts) | [Notes](./solutions/back-tracking/index.md) | [Problems](./solutions/back-tracking/problems/) |
+| **Branch And Bond** | [Code](./solutions/branch-and-bond/index.ts) | [Notes](./solutions/branch-and-bond/index.md) | [Problems](./solutions/branch-and-bond/problems/) |
+| **Brute Force** | [Code](./solutions/brute-force/index.ts) | [Notes](./solutions/brute-force/index.md) | [Problems](./solutions/brute-force/problems/) |
+| **Cyclic Sort** | [Code](./solutions/cyclic-sort/index.ts) | [Notes](./solutions/cyclic-sort/index.md) | [Problems](./solutions/cyclic-sort/problems/) |
+| **Divide And Conquer** | [Code](./solutions/divide-and-conquer/index.ts) | [Notes](./solutions/divide-and-conquer/index.md) | [Problems](./solutions/divide-and-conquer/problems/) |
+| **Dynamic Programming** | [Code](./solutions/dynamic-programming/index.ts) | [Notes](./solutions/dynamic-programming/index.md) | [Problems](./solutions/dynamic-programming/problems/) |
+| **Fast Slow Pointers** | [Code](./solutions/fast-slow-pointers/index.ts) | [Notes](./solutions/fast-slow-pointers/index.md) | [Problems](./solutions/fast-slow-pointers/problems/) |
+| **Greed Method** | [Code](./solutions/greed-method/index.ts) | [Notes](./solutions/greed-method/index.md) | [Problems](./solutions/greed-method/problems/) |
+| **Island Traversal** | [Code](./solutions/island-traversal/index.ts) | [Notes](./solutions/island-traversal/index.md) | [Problems](./solutions/island-traversal/problems/) |
+| **Kth Element** | [Code](./solutions/kth-element/index.ts) | [Notes](./solutions/kth-element/index.md) | [Problems](./solutions/kth-element/problems/) |
+| **Merge Intervals** | [Code](./solutions/merge-intervals/index.ts) | [Notes](./solutions/merge-intervals/index.md) | [Problems](./solutions/merge-intervals/problems/) |
+| **Sliding Window** | [Code](./solutions/sliding-window/index.ts) | [Notes](./solutions/sliding-window/index.md) | [Problems](./solutions/sliding-window/problems/) |
+| **Two Heaps** | [Code](./solutions/two-heaps/index.ts) | [Notes](./solutions/two-heaps/index.md) | [Problems](./solutions/two-heaps/problems/) |
+| **Two Pointers** | [Code](./solutions/two-pointers/index.ts) | [Notes](./solutions/two-pointers/index.md) | [Problems](./solutions/two-pointers/problems/) |
+<!-- SOLUTIONS_END -->
 
 ---
 
