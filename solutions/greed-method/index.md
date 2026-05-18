@@ -39,7 +39,7 @@ Check if sorting the input simplifies your choices. Ask: 'If I sort my options, 
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Coin Change (Greedy Case)**
 2. **Fractional Knapsack**

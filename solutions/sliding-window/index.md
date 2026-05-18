@@ -40,7 +40,7 @@ Watch for keywords like: 'contiguous subarray', 'longest substring', 'subsegment
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Longest Substring Without Repeating Characters**
 2. **Minimum Size Subarray Sum**

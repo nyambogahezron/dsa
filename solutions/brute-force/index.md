@@ -43,7 +43,7 @@ Ask yourself: 'If I had infinite computer time, what is the most straightforward
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Two Sum (Brute Force)**
 2. **Naive Substring Search**

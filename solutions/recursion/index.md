@@ -40,7 +40,7 @@ Always identify two components first: the base case (termination) and the recurr
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Factorial**
 2. **Fibonacci (Recursive + Memoization)**

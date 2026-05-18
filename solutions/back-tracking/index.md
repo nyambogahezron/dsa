@@ -4,7 +4,7 @@ Backtracking is an algorithmic paradigm that searches depth-first for a solution
 
 A bonding function is used to determine if the current candidate is valid or not. If it is valid, we continue to explore deeper; if it is invalid, we backtrack immediately without exploring further down that path.
 
-
+Backtracking is often applied in problems where the solution requires the sequence of decisions to meet certain constraints, like the 8-queens puzzle or the traveling salesperson problem. In essence, it involves exhaustive search and thus, can be computationally expensive. However, with the right sorts of constraints, it can sometimes find solutions to problems with large and complex spaces very efficiently.
 
 ---
 
@@ -45,7 +45,7 @@ The universal backtracking formula consists of:
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **N-Queens**
 2. **Subsets II (Unique Subsets)**

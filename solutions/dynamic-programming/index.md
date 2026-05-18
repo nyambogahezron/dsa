@@ -42,7 +42,7 @@ Check if you can write a recursive relation where the state depends only on prev
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Longest Common Subsequence**
 2. **0/1 Knapsack (Dynamic Programming)**

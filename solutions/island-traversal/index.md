@@ -42,7 +42,7 @@ Look for input matrices, 2D arrays, and keywords like: 'horizontal and vertical 
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Max Area of Island**
 2. **Flood Fill**

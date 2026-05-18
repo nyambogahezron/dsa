@@ -41,7 +41,7 @@ Ask: 'If I sort my intervals by start time, do adjacent segments tell me if they
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Interval List Intersections**
 2. **Non-overlapping Intervals**

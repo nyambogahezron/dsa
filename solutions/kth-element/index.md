@@ -46,7 +46,7 @@ Look for keywords like: 'Kth largest...', 'Top K frequent...', 'closest K elemen
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **K Closest Points to Origin**
 2. **Top K Frequent Elements**

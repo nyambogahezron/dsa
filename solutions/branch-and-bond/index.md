@@ -39,7 +39,7 @@ B&B is generally considered when you are dealing with optimization problems (min
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **0/1 Knapsack (Branch and Bound)**
 2. **Travelling Salesperson Problem (Branch & Bound)**

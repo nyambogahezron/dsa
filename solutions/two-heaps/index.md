@@ -40,7 +40,7 @@ If the problem requires finding the middle element (median) in a highly dynamic,
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Find Median from Data Stream**
 2. **Sliding Window Median**

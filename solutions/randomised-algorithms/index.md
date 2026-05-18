@@ -40,7 +40,7 @@ First ask what randomness is buying you: better expected runtime, lower collisio
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Randomized Quickselect**
 2. **Randomized Quicksort**

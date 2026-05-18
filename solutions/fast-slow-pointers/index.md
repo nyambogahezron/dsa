@@ -40,7 +40,7 @@ Look for linked list questions, or problems where a series of operations loop ba
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Linked List Cycle II (Entrance Node)**
 2. **Palindrome Linked List**

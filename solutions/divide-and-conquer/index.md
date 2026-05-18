@@ -39,7 +39,7 @@ Look for midpoints, balanced splitting, or recursive partitions. If a problem ca
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Merge Sort**
 2. **Kth Largest Element (Quickselect)**

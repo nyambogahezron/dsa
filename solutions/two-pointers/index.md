@@ -43,7 +43,7 @@ If the input array is sorted, or if you can sort it without violating problem re
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **3Sum**
 2. **Container With Most Water**

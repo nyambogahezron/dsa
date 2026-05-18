@@ -40,7 +40,7 @@ Identify what can run safely in parallel, what data must be synchronized, and wh
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Parallel Merge Sort**
 2. **Worker Pool Task Queue**

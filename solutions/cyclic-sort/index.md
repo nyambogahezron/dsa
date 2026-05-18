@@ -42,7 +42,7 @@ Look for keywords like: 'contains numbers from 1 to N', 'find the missing number
 
 ---
 
-## Practice Problems (No Solution)
+## Practice Problems 
 Check out the `problems/` directory in this folder to implement these challenge problems:
 1. **Missing Number**
 2. **Find All Duplicates in an Array**
