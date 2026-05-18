@@ -162,16 +162,29 @@ These are data structure-specific patterns that convert brute-force solutions in
 
 ---
 
-## Recommended Action Plan for /solutions
+## Coverage Status for /solutions
 
-Currently, your `solutions/` folder contains only classical paradigms:
+The `solutions/` section now covers all major techniques listed in this guide.
+
+### Algorithmic Paradigms
 1. `brute-force`
 2. `back-tracking`
 3. `greed-method`
 4. `branch-and-bond`
-5. `dynamic-programming`
+5. `divide-and-conquer`
+6. `dynamic-programming`
+7. `randomised-algorithms`
 
-To make this section complete, we should:
-- Create subdirectories for the **Pattern-Based Strategies** (e.g. `sliding-window`, `two-pointers`, `fast-slow-pointers`, `merge-intervals`, `cyclic-sort`, `two-heaps`).
-- Inside each folder, initialize an `index.md` (for pattern theory, templates, and complexity) and `index.ts` (for implementing a generic template).
-- Move or link relevant problems into their respective strategy folders for easy study!
+### Pattern-Based Strategies
+1. `sliding-window`
+2. `two-pointers`
+3. `fast-slow-pointers`
+4. `merge-intervals`
+5. `cyclic-sort`
+6. `two-heaps`
+7. `island-traversal`
+8. `kth-element`
+
+### Core Pillars
+1. `recursion`
+2. `multi-threaded`
