@@ -1,4 +1,4 @@
-# Complexity Notes
+# Complexity
 
 ## 1. Time vs Space Complexity
 
